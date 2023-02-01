@@ -1,0 +1,93 @@
+$darkgrey : rgb(42, 42, 42);
+
+.body{
+    background-color: whitesmoke;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 99999;
+}
+
+.text-brand{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: -24px;
+}
+
+.nav-text{
+    font-weight: bold;
+}
+
+.container{
+    margin :auto;
+}
+
+.row{
+    margin-top: 0px;
+    margin-bottom: -100px;
+}
+
+.form-search{
+    margin-top: 68px;
+}
+
+.search-input{
+    text-decoration: none;
+    color: orange;
+    border-radius: 8px;
+    border-color:orange;
+    font-weight: bold;
+
+}
+
+.search-button{
+    background-color: orange;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 6px;
+    border-color: orange;
+    font-weight: bold;
+     
+    &:hover{
+    background-color: $darkgrey;
+    border-color: $darkgrey;
+    color: orange;
+    }
+}
+
+.cards{
+    margin-top: 12px;
+    margin-bottom: 40px;
+    border-color: orange;
+    border-radius: 16px;
+}
+
+.read-news{
+    background-color: orange;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    border-color: whitesmoke;
+    font-weight: bold;
+
+    &:hover{
+        background-color: whitesmoke;
+        color: orange;
+        border-color: orange;
+    }
+}
+
+.footer{
+    background-color: orange;
+    color: $darkgrey;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 80px;
+    font-weight: bold;
+}
